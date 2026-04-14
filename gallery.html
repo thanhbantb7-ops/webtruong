@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện - THPT Võ Lai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <h1>THPT Võ Lai</h1>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="activities.html">Hoạt động</a>
+        <a href="gallery.html">Thư viện</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="height: 50vh;">
+    <div class="hero-content">
+        <h2>Thư viện hình ảnh</h2>
+        <p>Lưu giữ những khoảnh khắc đáng nhớ</p>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="reveal">
+    <h2>Hình ảnh nổi bật</h2>
+
+    <div class="gallery-grid">
+
+        <img src="images/1.jpg" onclick="openImage(this)">
+        <img src="images/g1.jpg" onclick="openImage(this)">
+        <img src="images/g2.jpg" onclick="openImage(this)">
+        <img src="images/g3.jpg" onclick="openImage(this)">
+        <img src="images/vn1.jpg" onclick="openImage(this)">
+        <img src="images/vn2.jpg" onclick="openImage(this)">
+        <img src="images/vn3.jpg" onclick="openImage(this)">
+        <img src="images/vn4.jpg" onclick="openImage(this)">
+        <img src="images/vn5.jpg" onclick="openImage(this)">
+        <img src="images/vn6.jpg" onclick="openImage(this)">
+        <img src="images/vn7.jpg" onclick="openImage(this)">
+        <img src="images/vn8.jpg" onclick="openImage(this)">
+
+    </div>
+</section>
+
+<!-- MODAL PHÓNG TO -->
+<div id="imgModal" class="modal" onclick="closeImage()">
+    <img id="modalImg">
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 THPT Võ Lai</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>THPT Võ Lai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HẠT BAY -->
+<div class="particles" id="particles"></div>
+
+<!-- SÓNG -->
+<div class="wave"></div>
+<div class="wave wave2"></div>
+
+<!-- HEADER -->
+<header class="header">
+    <h1>THPT Võ Lai</h1>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="activities.html">Hoạt động</a>
+        <a href="gallery.html">Thư viện</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+
+        <img src="images/congtruong.png" class="school-gate">
+
+        <h2 class="fade-in">Hành trình trưởng thành</h2>
+        <p class="fade-in delay">Nơi chắp cánh ước mơ</p>
+
+        <button onclick="scrollDown()">Khám phá</button>
+
+    </div>
+</section>
+
+<!-- GIỚI THIỆU -->
+<section class="intro reveal">
+    <h2>Giới thiệu về trường</h2>
+    <p>
+Trường THPT Võ Lai là một môi trường giáo dục hiện đại, nơi học sinh được phát triển toàn diện 
+về kiến thức, kỹ năng và nhân cách. Với phương châm lấy học sinh làm trung tâm, nhà trường luôn 
+nỗ lực đổi mới phương pháp giảng dạy nhằm khơi dậy niềm đam mê học tập và sáng tạo.
+</p>
+
+<p>
+Không chỉ chú trọng đến thành tích học tập, trường còn tạo điều kiện để học sinh tham gia 
+các hoạt động ngoại khóa, giúp rèn luyện kỹ năng sống và xây dựng sự tự tin trong cuộc sống.
+</p>
+    <video class="big-img" autoplay muted loop>
+    <source src="videos/truong.mp4" type="video/mp4">
+    Trình duyệt không hỗ trợ video
+</video>
+</section>
+
+<!-- KHUÔN VIÊN -->
+<section class="campus reveal">
+    <h2>Khuôn viên trường</h2>
+
+    <div class="row">
+        <img src="images/khuonvien.jpg">
+        <div>
+            <p>
+Khuôn viên trường được xây dựng khang trang, sạch đẹp, tạo nên không gian học tập thân thiện 
+và gần gũi. Môi trường xanh – sạch – đẹp giúp học sinh luôn cảm thấy thoải mái và hứng thú 
+trong mỗi giờ học.
+Các phòng học được trang bị đầy đủ cơ sở vật chất, đáp ứng nhu cầu học tập và giảng dạy hiện đại. 
+Nhà trường luôn chú trọng đầu tư để mang lại điều kiện tốt nhất cho học sinh.
+</section>
+
+<!-- THÀNH TÍCH -->
+<section class="achievements reveal">
+    <h2>Thành tích nổi bật</h2>
+
+    <div class="cards">
+        <div class="card">🏆 Tỷ lệ tốt nghiệp cao</div>
+        <div class="card">🎓 Nhiều Học sinh giỏi Tỉnh</div>
+        <div class="card">🌟 Tham gia các hoạt động xuất sắc</div>
+    </div>
+
+    <div class="achievement-gallery">
+    <img src="images/tt1.jpg">
+    <img src="images/tt2.jpg">
+    <img src="images/tt3.jpg">
+</div>
+</section>
+
+<!-- GIÁ TRỊ -->
+<section class="core reveal">
+    <h2>Giá trị cốt lõi</h2>
+
+    <div class="cards">
+        <div class="card">📘 Kỷ luật</div>
+        <div class="card">💡 Sáng tạo</div>
+        <div class="card">🤝 Trách nhiệm</div>
+        <div class="card">🌍 Hội nhập</div>
+    </div>
+</section>
+
+<!-- GIÁO VIÊN -->
+<section class="teachers reveal">
+    <h2>Đội ngũ giáo viên</h2>
+
+    <div class="row">
+        <img src="images/1.jpg">
+        <div>
+            <p>
+Trong nhiều năm qua, Trường THPT Võ Lai đã đạt được nhiều thành tích đáng tự hào trong giảng dạy 
+và học tập. Tỷ lệ học sinh tốt nghiệp luôn ở mức cao, nhiều em đạt giải trong các kỳ thi học sinh giỏi.
+</p>
+
+<p>
+Những thành tích này là minh chứng cho sự nỗ lực không ngừng của thầy và trò nhà trường.
+            </p>        
+</div>
+    </div>
+</section>
+
+<!-- HOẠT ĐỘNG -->
+<section class="activity-highlight reveal">
+    <h2>Hoạt động tiêu biểu</h2>
+
+    <div class="gallery">
+        <img src="images/g1.jpg">
+        <img src="images/g2.jpg">
+        <img src="images/g3.jpg">
+        <img src="images/1.jpg">
+    </div>
+</section>
+
+<!-- CẢM NHẬN -->
+<section class="quote reveal">
+    <h2>Cảm nhận học sinh</h2>
+
+    <p style="font-style: italic; max-width:600px; margin:auto;">
+        “THPT Võ Lai không chỉ là nơi học tập mà còn là nơi giúp em trưởng thành
+        và theo đuổi ước mơ của mình.”
+    </p>
+</section>
+
+<!-- SỐ LIỆU -->
+<section class="stats">
+    <div>
+        <h3 class="number" data-target="20">0</h3>
+        <p>Năm phát triển</p>
+    </div>
+    <div>
+        <h3 class="number" data-target="400">0</h3>
+        <p>Học sinh</p>
+    </div>
+    <div>
+        <h3 class="number" data-target="80">0</h3>
+        <p>% Tốt nghiệp</p>
+    </div>
+</section>
+
+<!-- LIÊN HỆ -->
+<section class="contact reveal">
+    <h2>Liên hệ</h2>
+    <p>📍 Trường THPT Võ Lai</p>
+    <p>📞 0256 3884 160</p>
+    <p>📧 thptvolai.gialai.edu.vn</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 THPT Võ Lai</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

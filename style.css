@@ -355,3 +355,10 @@ section p {
     max-height: 80%;
     border-radius: 10px;
 }
+.creator {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #aaa;
+}
